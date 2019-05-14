@@ -9,16 +9,16 @@ public static void main(String[] args) {
 	System.out.print(score);
 
 	
-	if(score <= 59) {
-		JOptionPane.showMessageDialog(null,"You are the best...Keep up the great work!!!");
-	} else if (score <= 69) {
-		JOptionPane.showMessageDialog(null,"You need to study more next time");
-	} else if (score <= 79) {
+	if(score < 60) {
+		JOptionPane.showMessageDialog(null,"An F!!! Hit the books before I hit you with one");
+	} else if (score < 70) {
+		JOptionPane.showMessageDialog(null,"D! STUDY MORE");
+	} else if (score < 80) {
 		JOptionPane.showMessageDialog(null,"Not bad but I know you can do much better");
-	} else if (score <= 89) {
+	} else if (score < 90) {
 		JOptionPane.showMessageDialog(null,"You did great...Keep up the great work!");
-	} else if (score <= 100) {
-		JOptionPane.showMessageDialog(null,"This is not good...Hit the books starting now");
+	} else if (score < 100) {
+		JOptionPane.showMessageDialog(null,"You are the best...keep doing what your doing");
 }
 }
 }
